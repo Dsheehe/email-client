@@ -2,6 +2,51 @@ body {
 	background-color: aqua;
  }
 
- h1 {
-	 color: blueviolet;
+ 
+ .container{
+	width:100%;
+	margin: 0;
+	height: 100vh;
+	
+}
+
+
+ .col-2 {
+	 background-color: crimson;
+	 align-items: flex-start;
+	 flex-direction: column;
+
+ }
+ #top-line {
+	 display: flex;
+	 align-content: center;
+ }
+ #cat-icon{
+	 height: 3em;
+	 padding: 8px;
+ }
+ #welcome{
+	 padding-top: .5em;
+ }
+#button-div{
+	margin:20px;
+}
+
+ 
+ .col-3 {
+	 background-color: coral;
+	 flex-direction: column;
+ }
+
+ .col-7{
+	 background-color: darkblue;
+	 color: aliceblue;
+
+	 flex-direction: column;
+ }
+
+
+ .row {
+	 height:  100%;
+	 width: 100vw;
  }
