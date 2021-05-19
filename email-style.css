@@ -75,3 +75,6 @@ body {
 	 height:  100%;
 	 width: 100vw;
  }
+ #textarea {
+	 background-color: rgba(128, 128, 128, .5);
+ }
