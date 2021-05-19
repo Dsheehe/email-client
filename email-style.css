@@ -9,10 +9,16 @@ body {
 	height: 100vh;
 	
 }
+.email-cards {
+	display: flex;
+	flex-direction: column;
+
+}
 
 
- .col-2 {
+ .left-col {
 	 background-color: crimson;
+	 display: flex;
 	 align-items: flex-start;
 	 flex-direction: column;
 
@@ -27,24 +33,43 @@ body {
  }
  #welcome{
 	 padding-top: .5em;
+	 font-size: 16pt;
  }
 #button-div{
 	margin:20px;
 }
 
  
- .col-3 {
+ .middle-col {
+	 display: flex;
 	 background-color: coral;
 	 flex-direction: column;
  }
 
- .col-7{
-	 background-color: darkblue;
+ .right-col{
+	display: flex; 
+	background-color: darkblue;
 	 color: aliceblue;
 
 	 flex-direction: column;
  }
 
+ .tofrom {
+	 margin: 0px;
+	 padding: 0px;
+ }
+
+ #title-and-icons {
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+ }
+
+ #icons{
+	 display: flex;
+	 justify-content: end;
+	 align-items: center;
+ }
 
  .row {
 	 height:  100%;
